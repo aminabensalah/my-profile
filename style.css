@@ -1,0 +1,122 @@
+Colors 
+body {
+  background-color:rgb(200,200,200);
+  text-align: justify-all;
+  color: rgb (50,50,50);
+  font-family: 'Merriweather', serif;
+  align-items: center;
+  font-size: 15px;
+  line-height: 1,8px;
+  margin:50px auto;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+ }
+
+.carte-white {
+  padding-left: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+ }
+
+ .carte-white img {
+  width: 100px;
+  border-radius: 5px;
+  margin: 20px auto;
+ }
+
+ .carte-white p {
+  position:relative;
+  color: #45454d;
+  font-family: 'Roboto';
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  line-height: 1,8px;
+  padding: 50px;
+  margin-left: 25px;
+ }
+
+h1{
+  text-align:center;
+  color: rgba(355,0,0,30%);
+  font-family: 'Merriweather', serif;
+  font-size: 50px
+  font-weight: 100;
+  letter-spacing: 5px;
+  margin left:20px auto;
+}
+
+h2 {
+  color:#5EB7B7;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 50;
+  text-align: center;
+  margin:10px auto;
+  margin-left: 20px auto;
+}
+
+a{
+  text-decoration: none; 
+  line-height: 1,8;
+  color: white;
+  text-align: justify;
+  margin: 30px;
+  background-color: rgba(355,0,0,30%);
+  padding:10px 35px;
+  border-radius: 20px;
+  border:solid 2px #ffafb0;
+  box-shadow: 0px 5px 12px rgba(0,0,0,0,1);
+}
+#moi {
+  align-items: center;
+  padding: 25px, 5px;
+  color: white;
+  border-radius: 50px;
+  border:3px solid rgba (255,0,0,30%);
+}
+#monblog {
+  align-items: center;
+  padding:25px 35px;
+  border-radius: 50px;
+  border: 3px solid rgba (255,0,0,30%);
+}
+
+.fab {
+  padding: 5px, 5px;
+  color: white;
+  font-size: 50px;
+  padding: 40px, 35px;
+}
+.fas {
+  padding: 20px, 20px;
+}
+{
+max-width: 960px;
+width: 700px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px
+
